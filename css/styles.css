@@ -3,7 +3,10 @@
     --text-color: #434455;
     --background-color: #E5E5E5;
     --font-main: 'Roboto';
-
+}
+body {
+    color: #2E2F42;
+    font-family: 'Roboto';
 }
 .logo-web {
     width: 44px;
