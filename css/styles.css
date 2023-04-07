@@ -6,49 +6,50 @@
     --background-color-gray: #F4F4FD;
     --footer-text-color: #F4F4FD;
     --logo-web-color: #4D5AE5;
-    --font-alternative: 'Raleway';
+    --font-alternative: 'Raleway', sans-serif;
 }
 body {
-    color: #2E2F42;
-    font-family: 'Roboto', 'Raleway', 'Helvetica Neue', ' Roboto', ' Verdana', ' Tahoma', sans-serif;
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
     letter-spacing: 0.02em;
 }
-.logo-web {
-    width: 44px;
-    height: 21px;
+.logo {
     font-family: var(--font-alternative);
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.2;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--logo-web-color);
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--logo-web-color);
+}
+.link {
+    text-decoration: none;
 }
 .logo-studio {
     width: 71px;
     height: 21px;
-    font-family: var(--font-alternative);
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.2;  
     display: flex;
     align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;  
+    color: var(--brand-color);
 }
-.main-nav {
+.list {
+    list-style: none;
+}
+.nav {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    color: var(--brand-color);
 }
-.main-nav .nav:active {
+.nav:hover, .nav:focus {
     color: var(--nav-color);
 }
+.link {
+    text-decoration: none;
+}
 .address {
+    font-style: normal;
     color: var(--text-color);
 }
 .address .mailto:active {
@@ -185,4 +186,6 @@ body {
     font-size: 16px;
         line-height: 1.5;
         color: var(--text-color);
+        display: inline-block;
+        vertical-align: ;
 }
