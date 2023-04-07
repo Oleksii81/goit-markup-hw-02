@@ -2,34 +2,39 @@
     --brand-color: #2E2F42;
     --text-color: #434455;
     --background-color: #E5E5E5;
-    --font-main: 'Roboto';
+    --nav-color: #404BBF;
+    --background-color-gray: #F4F4FD;
+    --footer-text-color: #F4F4FD;
+    --logo-web-color: #4D5AE5;
+    --font-alternative: 'Raleway';
 }
 body {
     color: #2E2F42;
     font-family: 'Roboto', 'Raleway', 'Helvetica Neue', ' Roboto', ' Verdana', ' Tahoma', sans-serif;
+    letter-spacing: 0.02em;
 }
 .logo-web {
     width: 44px;
     height: 21px;
-    font-family: 'Raleway';
+    font-family: var(--font-alternative);
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.2;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--logo-web-color);
 }
 .logo-studio {
     width: 71px;
     height: 21px;
-    font-family: 'Raleway';
+    font-family: var(--font-alternative);
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;  
+    line-height: 1.2;  
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
@@ -38,16 +43,17 @@ body {
 .main-nav {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,5;
+    line-height: 1.5;
 }
 .main-nav .nav:active {
-    color: #404BBF;
+    color: var(--nav-color);
 }
 .address {
     color: var(--text-color);
 }
 .address .mailto:active {
-    color: #404BBF;
+    color: var(--nav-color);
+    text-decoration: underline  ;
 }
 .hero {
     background-color: var(--brand-color);
@@ -55,23 +61,128 @@ body {
 .hero-head {
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1;
     color: #fff;
+    text-align: center;
 }
 .button {
     cursor: pointer;
         width: 169px;
-        height: 56px;   
-        background: #4D5AE5;
+        height: 56px;
+        background: var(--logo-web-color);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
 }
 .hero-btn {
     font-weight: 500;
         font-size: 16px;
-        line-height: 1,5;  
+        line-height: 1.5;  
         display: flex;
         align-items: center;
         letter-spacing: 0.04em;
         color: #FFFFFF;
+}
+.button:hover {
+    background-color: var(--nav-color);
+}
+.strengths {
+    
+}
+.strengths-head {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+}
+.strengths-text {
+    font-size: 16px;
+        line-height: 1.5;
+        color: var(--text-color);
+}
+.doing-section {
+    
+}
+.doing-head {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1;
+        text-align: center;
+        text-transform: capitalize;
+}
+.team {
+    background-color: var(--background-color-gray);
+}
+.team-head {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1;
+        text-align: center;
+        text-transform: capitalize;
+}
+.teammate {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        text-align: center;
+}
+.profession {
+    font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        color: var(--text-color);
+}
+.footer {
+    background-color: var(--brand-color);
+}
+.logo-studio-footer {
+    width: 71px;
+    height: 21px;
+    color: var(--footer-text-color);
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.2;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+.footer-text {
+    font-size: 16px;
+        line-height: 1.5;
+        color: var(--footer-text-color);
+}
+/* Portfolio */
+.button-all {
+    width: 69px;
+    height: 48px;
+    background: var(--nav-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
+    color: #fff;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+}
+.filter-button {
+    width: 116px;
+        height: 48px;
+        background: var(--background-color-gray);
+        border: 1px solid #E7E9FC;
+        border-radius: 4px;
+        color: var(--logo-web-color);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+}
+.discription-head {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+}
+.discription {
+    font-size: 16px;
+        line-height: 1.5;
+        color: var(--text-color);
 }
