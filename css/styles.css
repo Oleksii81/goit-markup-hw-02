@@ -48,8 +48,10 @@ body {
 .address {
     font-style: normal;
     color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.5;
 }
-.address .mailto:active {
+.address .mailto:active, .tel:active {
     color: var(--text-color);
     font-size: 16px;
     line-height: 1.5;
@@ -63,6 +65,7 @@ body {
     line-height: 1.07;
     color: #fff;
     text-align: center;
+    letter-spacing: 0.02em;
 }
 .button {
     cursor: pointer;
@@ -87,11 +90,12 @@ body {
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--brand-color);
 }
 .strengths-text {
     font-size: 16px;
         line-height: 1.5;
-        color: var(--text-color);
 }
 .doing-head {
     font-weight: 700;
@@ -99,6 +103,7 @@ body {
         line-height: 1.11;
         text-align: center;
         text-transform: capitalize;
+        color: var(--brand-color);
 }
 .team {
     background-color: var(--background-color-gray);
@@ -109,6 +114,8 @@ body {
         line-height: 1.11;
         text-align: center;
         text-transform: capitalize;
+        letter-spacing: 0.02em;
+        color: var(--brand-color);
 }
 .team-list {
     background-color: #FFFFFF;
@@ -118,12 +125,13 @@ body {
         font-size: 20px;
         line-height: 1.2;
         text-align: center;
+        letter-spacing: 0.02em;
+        color: var(--brand-color);
 }
 .profession {
     font-size: 16px;
         line-height: 1.5;
         text-align: center;
-        color: var(--text-color);
 }
 .footer {
     background-color: var(--brand-color);
