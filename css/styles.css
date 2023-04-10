@@ -157,6 +157,8 @@ body {
 .filter-button {
     width: 116px;
         height: 48px;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 0.04em;
         background: var(--background-color-gray);
         border: 1px solid #E7E9FC;
         border-radius: 4px;
