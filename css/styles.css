@@ -41,13 +41,13 @@ body {
 .nav-link:hover, .nav-link:focus {
     color: var(--nav-color);
 }
-.address {
+.address-link {
     font-style: normal;
     color: var(--text-color);
     font-size: 16px;
     line-height: 1.5;
 }
-.address .link:active {
+.address-link:active {
     color: var(--text-color);
     font-size: 16px;
     line-height: 1.5;
