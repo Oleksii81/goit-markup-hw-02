@@ -35,6 +35,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--brand-color);
 }
 .nav-link:hover, .nav-link:focus {
@@ -50,6 +51,11 @@ body {
     color: var(--text-color);
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.address-link:hover,
+.address-link:focus {
+    color: var(--nav-color);
 }
 .hero {
     background-color: var(--brand-color);
@@ -89,6 +95,7 @@ body {
 .strengths-text {
     font-size: 16px;
         line-height: 1.5;
+        letter-spacing: 0.02em;
 }
 .doing-head {
     font-weight: 700;
